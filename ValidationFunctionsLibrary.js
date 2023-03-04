@@ -4,9 +4,9 @@ function NameValidation(name) {
     if (name == null || name == "") {
         alert("We just want to know your name");
         return false;
-    } else {
-        return true;
     }
+    return true;
+
 }
 
 // Validates Email field and returns false if this field is empty or equals Null 
@@ -16,10 +16,10 @@ function EmailValidation(email) {
         alert("Enter your email. No spam, we promice");
         return false;
     }
-    else {
 
-        return true;
-    }
+
+    return true;
+
 }
 
 // Validates Password field and returns false if this field is empty or equals Null or if password length is less than 8 symbols
